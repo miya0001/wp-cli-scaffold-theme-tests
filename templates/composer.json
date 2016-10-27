@@ -1,0 +1,13 @@
+{
+    "name": "miyauchi/oreore",
+    "authors": [
+        {
+            "name": "miya0001",
+            "email": "miya@wpist.me"
+        }
+    ],
+    "require": {
+        "phpmd/phpmd": "^2.4",
+        "wp-coding-standards/wpcs": "^0.10.0"
+    }
+}
