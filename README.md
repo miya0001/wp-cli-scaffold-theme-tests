@@ -25,3 +25,15 @@ require:
 ```
 
 Then run `wp help scaffold theme-tests`.
+
+## How it works
+
+* Run command `wp scaffold theme-tests <theme-slug>`, it creates some files in the theme direcotry.
+* Signup or register theme github repository to the Travis CI.
+* Run `git push`.
+
+Then follwoing commands will be executed on the Travis CI automatically.
+
+* Install composer
+* Setup WordPress coding standards
+* Run CodeSniffer and PHPMD.
